@@ -1,0 +1,46 @@
+.login-page{
+    max-width: 500px;
+    border: 2px solid #E43553;
+    border-radius: 5px;
+    padding: 30px;
+    margin: 50px auto;
+    background-color: white;
+}
+
+.login-page h2{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #E43553;
+    text-align: center;
+}
+
+.login-page form input,
+.login-page form button{
+    width: 100%;
+    height: 40px;
+    margin: 10px 0;
+    padding: 0 5px;
+    outline: #E43553;
+    border: 1px solid #E43553;
+    border-radius: 0.2rem;
+}
+
+.login-page form .row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.login-page form button{
+    width: 150px;
+    background: #E43553;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.login-page form a{
+    color: #E43553;
+    letter-spacing: 1.3px;
+    text-transform: uppercase;
+}

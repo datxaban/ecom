@@ -1,0 +1,119 @@
+.detail{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 50px;
+    font-size: 150%;
+}
+
+.detail img{
+    max-width: 400px;
+    width: 100%;
+    margin: 20px;
+    height: 450px;
+    object-fit: cover;
+    display: block;
+}
+
+.detail-box{
+    max-width: 500px;
+    width: 100%;
+    margin: 5px 20px;
+}
+
+.detail-box .row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.detail-box h2{
+    color: black;
+    font-weight: medium;
+    text-transform: capitalize;
+}
+
+.detail-box p{
+    line-height: 1.5;
+    margin: 10px 0;
+    opacity: 0.8;
+}
+
+.detail-box .buynow-button{
+    background: #E43553;
+    color: wheat;
+    padding: 10px 10px;
+    display: inline-block;
+    border: 0.1rem solid #E43553;
+    border-radius: 0.6rem;
+    font-size: medium;
+}
+
+.detail-box .buynow-button:hover{
+    opacity: 0.9;
+}
+
+/* Quoc Huy Mod 14/6/2021 */
+.detail-container{
+    width: 1300px;
+    background-color: white;
+    margin: 0 100px;
+    border: 0.2rem solid #E43553;
+    border-radius: 1rem;
+}
+
+.similar-container{
+    width: 1300px;
+    background-color: white;
+    margin: 0 100px;
+    margin-top: 50px;
+    border-radius: 1rem;
+    border: 0.2rem solid #E43553;
+    padding: 20px 0;
+}
+
+.similar-container .similar-title{
+    padding-left: 70px;
+    color: #E43553;
+    font-size: large;
+}
+
+.detail-box .detail-product-title{
+    font-size: large;
+    margin-bottom: 20px;
+}
+
+.detail-box .detail-price{
+    color: #E43553;
+    font-size: larger;
+    background-color: #e5e5e5;
+    width: 100%;
+    padding: 5px 10px;
+}
+
+.detail-box .detail-sold{
+    font-size: medium;
+    color: #7f7f7f;
+    font-weight: bold;
+}
+
+.detail-box .description-title{
+    background-color: #e5e5e5;
+    padding: 10px;
+}
+
+.detail-box .detail-description{
+    font-size: medium;
+}
+
+.detail-box .detail-content{
+    font-size: medium;
+}
+
+.detail .detail-image{
+    width: 300px;
+    height: 300px;
+    border: 0.1rem solid black;
+    border-radius: 1rem;
+}

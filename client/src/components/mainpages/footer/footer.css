@@ -1,0 +1,110 @@
+footer{
+    background-color: #E43553;
+    color: aliceblue;
+    width: 100%;
+    height: auto;
+}
+
+footer .footer-container{
+    display: grid;
+    grid-template-rows: 200px;
+    grid-template-columns: 600px 500px 500px;
+    padding: 30px;
+}
+
+/* Footer css for about us */
+
+footer .footer-container .about-us{
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+footer .footer-container .about-us .sec{
+    width: 50px;
+    height: 3px;
+    background-color: white;
+    transform: translateY(-20px);
+}
+
+footer .footer-container .about-us h2{
+    font-style: normal;
+    margin-bottom: 20px;
+}
+
+footer .footer-container .about-us ul li{
+    display: inline-block;
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+footer .footer-container .about-us ul li i{
+    color: black;
+    font-size: 2.5rem;
+    margin-top: 20px;
+}
+
+/* Footer css for Quick Links */
+footer .footer-container .quick-link{
+    margin-top: 20px;
+}
+
+footer .footer-container .quick-link{
+    width: 300px;
+}
+
+footer .footer-container .quick-link .sec{
+    width: 50px;
+    height: 3px;
+    background-color: white;
+    transform: translateY(-20px);
+}
+
+footer .footer-container .quick-link h2{
+    font-style: normal;
+    margin-bottom: 20px;
+}
+
+footer .footer-container .quick-link ul li a{
+    color: white;
+    margin-bottom: 10px;
+}
+
+footer .footer-container .quick-link ul li a:hover{
+    color: #b2b2b2;
+    margin-bottom: 10px;
+}
+
+footer .footer-container .quick-link ul li {
+    
+    margin-bottom: 10px;
+}
+
+/* Footer css for contact us */
+footer .footer-container .contact-us{
+    width: 300px;
+}
+
+footer .footer-container .contact-us{
+    margin-top: 20px;
+}
+
+footer .footer-container .contact-us .sec{
+    width: 50px;
+    height: 3px;
+    background-color: white;
+    transform: translateY(-20px);
+}
+
+footer .footer-container .contact-us h2{
+    margin-bottom: 20px;
+}
+
+footer .footer-container .contact-us i{
+    font-size: 1.5rem;
+}
+
+footer .footer-container .contact-us ul li{
+    margin-bottom: 10px;
+}
+
+

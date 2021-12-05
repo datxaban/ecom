@@ -1,0 +1,43 @@
+.history-page{
+    background-color: white;
+    width: 1300px;
+    margin: 0 100px;
+    border: 0.1rem solid #E43553;
+}
+
+.history-page table{
+    width: 100%;
+}
+
+.history-page table,th,tr,td {
+    border: 1px solid #E43553;
+    border-collapse: collapse;
+}
+
+td,th{
+    text-align: center;
+    padding: 20px;
+    text-transform: capitalize;
+}
+
+th{
+    color: #E43553;
+}
+
+table a{
+    color: #E43553;
+    font-weight: bold;
+}
+
+.history-page img{
+    width: 70px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.history-page .purchase-title{
+    color: #E43553;
+    text-align: center;
+    margin: 20px 0;
+    font-size: larger;
+}

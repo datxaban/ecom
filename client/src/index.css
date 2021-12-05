@@ -1,0 +1,66 @@
+* {
+  padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", Helvetica, Arial, 文泉驛正黑, "WenQuanYi Zen Hei", "Hiragino Sans GB",
+   "儷黑 Pro", "LiHei Pro", "Heiti TC", 微軟正黑體, "Microsoft JhengHei UI", "Microsoft JhengHei", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.App {
+  /* max-width: 1320px;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0; */
+  background: #F5F5F5;
+}
+
+.mainpage_section {
+  box-sizing: border-box;
+  padding: 100px 0;
+  width: 100%;
+  min-height: 650px;
+  box-shadow: 0 0 15px 0 #f5f5f5;
+  margin: 0 auto;
+  background-image: url('./images/background/background-images.jpg');
+}
+
+a{
+  text-decoration: none;
+}
+
+ul li{
+  list-style: none;
+}
+
+button {
+  border: none;
+  outline: none;
+  background: transparent;
+  cursor: pointer;
+}
+
+
+/* Header CSS */
+ @import url("./components/headers/header.css");
+/*Products CSS*/
+@import url("./components/mainpages/products/product.css");
+/*detailProduct CSS*/
+@import url("./components/mainpages/products/DetailProduct/detailProduct.css"); 
+/*login page*/
+@import url("./components/mainpages/auth/login.css");
+/*Cart*/
+@import url("./components/mainpages/cart/cart.css");
+/*Category*/
+@import url("./components/mainpages/category/categories.css"); 
+/*Footer*/
+@import url("./components/mainpages/footer/footer.css");
+/*CreateProduct*/
+@import url('./components/mainpages/admin/createProduct/creatProduct.css');
+@import url('./components/mainpages/history/orderhistory.css');
